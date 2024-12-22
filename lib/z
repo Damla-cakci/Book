@@ -1,0 +1,303 @@
+Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20.w),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        height: 284.h,
+                        width: 170.w,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFF4F4FF),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            
+                            SizedBox(
+                              
+                              height: 150.h,
+                              width: 225.w,
+                              child: Image.asset("assets/Picture.png"),
+                            ),
+                            SizedBox(height: 8.h),
+                            Expanded(
+                              child: Row(
+                                
+                                children: [
+                                  Column(
+                                    children: [
+                                      Text(
+                                        "Dune",
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 12.sp,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      SizedBox(height: 4.h),
+                                      Text(
+                                        "Frank Herbert",
+                                        style: TextStyle(
+                                          color: Color(0xFF090937),
+                                          fontSize: 10.sp,
+                                        ),
+                                      ),
+                                      //SizedBox(height: 44.h),
+                                    ],
+                                  ),
+                                  Text(
+                                    "87,75 \$",
+                                    style: TextStyle(
+                                      color: Color(0xFF6251DD),
+                                      fontSize: 10.sp,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: 10.w),
+                      Container(
+                        height: 284.h,
+                        width: 170.w,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFF4F4FF),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            
+                            SizedBox(
+                              
+                              height: 150.h,
+                              width: 225.w,
+                              child: Image.asset("assets/Picture.png"),
+                            ),
+                            SizedBox(width: 8.w),
+                            Expanded(
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Column(
+                                    children: [
+                                      Text(
+                                        "Dune",
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 12.sp,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      SizedBox(height: 4.h),
+                                      Text(
+                                        "Frank Herbert",
+                                        style: TextStyle(
+                                          color: Color(0xFF090937),
+                                          fontSize: 10.sp,
+                                        ),
+                                      ),
+                                      SizedBox(height: 44.h),
+                                    ],
+                                  ),
+                                  Text(
+                                    "87,75 \$",
+                                    style: TextStyle(
+                                      color: Color(0xFF6251DD),
+                                      fontSize: 10.sp,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 20.h), // Spacing between rows
+                  Row(
+                    children: [
+                      Container(
+                        height: 284.h,
+                        width: 170.w,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFF4F4FF),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            
+                            SizedBox(
+                              
+                              height: 150.h,
+                              width: 225.w,
+                              child: Image.asset("assets/Picture.png"),
+                            ),
+                            SizedBox(width: 8.w),
+                            Expanded(
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Column(
+                                    children: [
+                                      Text(
+                                        "Dune",
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 12.sp,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      SizedBox(height: 4.h),
+                                      Text(
+                                        "Frank Herbert",
+                                        style: TextStyle(
+                                          color: Color(0xFF090937),
+                                          fontSize: 10.sp,
+                                        ),
+                                      ),
+                                      SizedBox(height: 44.h),
+                                    ],
+                                  ),
+                                  Text(
+                                    "87,75 \$",
+                                    style: TextStyle(
+                                      color: Color(0xFF6251DD),
+                                      fontSize: 10.sp,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: 10.w),
+                      Container(
+                        height: 284.h,
+                        width: 170.w,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFF4F4FF),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            
+                            SizedBox(
+                              
+                              height: 150.h,
+                              width: 225.w,
+                              child: Image.asset("assets/Picture.png"),
+                            ),
+                            SizedBox(width: 8.w),
+                            Expanded(
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Column(
+                                    children: [
+                                      Text(
+                                        "Dune",
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 12.sp,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      SizedBox(height: 4.h),
+                                      Text(
+                                        "Frank Herbert",
+                                        style: TextStyle(
+                                          color: Color(0xFF090937),
+                                          fontSize: 10.sp,
+                                        ),
+                                      ),
+                                      SizedBox(height: 44.h),
+                                    ],
+                                  ),
+                                  Text(
+                                    "87,75 \$",
+                                    style: TextStyle(
+                                      color: Color(0xFF6251DD),
+                                      fontSize: 10.sp,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(width: 10.w),
+                      Container(
+                        height: 284.h,
+                        width: 170.w,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFF4F4FF),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            SizedBox(
+                              height: 100.h,
+                              width: 140.w,
+                              child: Image.asset("assets/oğuz.png"),
+                            ),
+                            SizedBox(width: 8.w),
+                            Expanded(
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    "Olağanüstü Bir Gece",
+                                    style: TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 12.sp,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  SizedBox(height: 4.h),
+                                  Text(
+                                    "Stefan Zweig",
+                                    style: TextStyle(
+                                      color: Color(0xFF090937),
+                                      fontSize: 10.sp,
+                                    ),
+                                  ),
+                                  SizedBox(height: 44.h),
+                                  Text(
+                                    "10,00 \$",
+                                    style: TextStyle(
+                                      color: Color(0xFF6251DD),
+                                      fontSize: 10.sp,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
